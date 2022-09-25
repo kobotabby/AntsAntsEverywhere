@@ -1,14 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Prata&display=swap');
 
-@media (min-width: 800px) {
-    :root {
-        --fs-h1: 4.5rem;
-        --fs-h2: 3.75rem;
-        --fs-h3: 1.5rem;
-        --fs-body: 1.125rem;
-    }
-}
-
 html {
     scroll-behavior: smooth;
 }
@@ -144,6 +135,7 @@ header {
   font-weight: 400;
   font-size: 1.5em;
   margin-top: 1.5em;
+  padding-top: 5em;
 
 }
 
@@ -160,6 +152,8 @@ header {
   font-size: 1.5em;
   background-color: turquoise;
   color: black;
+  padding-top: 5em;
+  padding-bottom: 5em;
 
 }
 
@@ -181,15 +175,26 @@ header {
   
   background-color: black;
   color: #edf0ed;
+  padding-top: 5em;
+  padding-bottom: 15em;
 
 }
 
-.frog {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 1%;
-  
+.wiki__link {
+  font-family: "Prata", serif;
+  font-weight: 500;
+  font-size: 1em;
+  color: #edf0ed;
+  text-decoration: none;
+  transition: all 0.3 ease 0s;
+
 }
+
+
+.wiki__link:hover {
+    color: turquoise;
+}
+
+
 
 
