@@ -17,7 +17,7 @@ body {
 }
 
 
-/* nav bar */
+/* navigation bar */
 
 header {
     display: flex;
@@ -67,7 +67,7 @@ header {
 }
 
 
-/* home */
+/* intro section */
 
 .intro {
   background: linear-gradient(
@@ -75,20 +75,13 @@ header {
   ),
     url(https://wallpaperaccess.com/full/1853370.jpg);
   transform: scaleX(-1);
-  background-size: cover;
-
+  background-size: cover; 
   position: relative;
   display: block;
   height: 100vh;
-/*   width: 100%; */
-  /*background-color: var(#24252a);*/
   width: calc(100% + 1.5em);
   max-width: 100%;
-
-
-  
 }
-
 
 .intro-container {
   transform: scaleX(-1);
@@ -96,7 +89,6 @@ header {
   text-align: left;
   padding: 1em 10%;
   padding-top: 25vh;
-/*   padding-bottom: 4em; */
   font-family: "Prata", serif;
   margin-right: auto;
   font-weight: 400;
@@ -110,8 +102,7 @@ header {
   margin-top: 1.2em;
   padding: .8em 1em;
   color: white;
-/*   background-color: black; */
-   background-color: black;
+  background-color: black;
   border: 2px solid #fff;
   border-radius: 4em;
 }
@@ -123,7 +114,7 @@ header {
   border: 2px solid black;
 }
 
-/*about*/
+/* about section */
 
 .about {
   position: relative;
@@ -139,6 +130,7 @@ header {
 
 }
 
+/* interesting ants section */
 
 .ants {
   position: relative;
@@ -160,6 +152,8 @@ header {
 .ant__img {
   scale: 50%;
 }
+
+/* contact section */
 
 .contact {
   position: relative;
@@ -189,7 +183,6 @@ header {
   transition: all 0.3 ease 0s;
 
 }
-
 
 .wiki__link:hover {
     color: turquoise;
