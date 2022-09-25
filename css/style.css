@@ -1,16 +1,19 @@
+/* import fonts */
 @import url('https://fonts.googleapis.com/css2?family=Prata&display=swap');
 
+/* scroll behaviour */
 html {
     scroll-behavior: smooth;
 }
 
+/* default styles */
 * {
 
     margin: 0;
     padding: 0;
 }
 
-
+/* body styles */
 body {
   background-color: #edf0ed;
   margin: 0 auto;
@@ -18,7 +21,6 @@ body {
 
 
 /* navigation bar */
-
 header {
     display: flex;
     justify-content: space-between;
@@ -68,7 +70,6 @@ header {
 
 
 /* intro section */
-
 .intro {
   background: linear-gradient(
     rgba(0,0,0,0.5), rgba(0,0,0,0.7)
@@ -83,6 +84,7 @@ header {
   max-width: 100%;
 }
 
+/* intro container for text and button */
 .intro-container {
   transform: scaleX(-1);
   position: relative;
@@ -115,7 +117,6 @@ header {
 }
 
 /* about section */
-
 .about {
   position: relative;
   height: 50m;
@@ -131,7 +132,6 @@ header {
 }
 
 /* interesting ants section */
-
 .ants {
   position: relative;
   height: 50m;
@@ -154,7 +154,6 @@ header {
 }
 
 /* contact section */
-
 .contact {
   position: relative;
   height: 50m;
